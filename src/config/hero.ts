@@ -42,4 +42,9 @@ export const socialLinks = [
     href: resumeConfig.viewUrl,
     icon: "resume",
   },
+  {
+    name: "Leetcode",
+    href: "https://leetcode.com/u/coder_nik01/",
+    icon: "leetcode",
+  },
 ] as const;

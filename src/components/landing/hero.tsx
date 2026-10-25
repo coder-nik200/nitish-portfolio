@@ -15,6 +15,7 @@ import {
   SealCheck,
   XLogo,
 } from "@phosphor-icons/react";
+import { SiLeetcode } from "@icons-pack/react-simple-icons";
 
 import StarBorder, { type StarBorderTheme } from "@/components/StarBorder";
 import { ProfileAvatar } from "@/components/profile-avatar";
@@ -38,6 +39,7 @@ const iconMap = {
   medium: MediumLogo,
   mail: EnvelopeSimple,
   resume: FileText,
+  leetcode: SiLeetcode,
 } as const;
 
 export type SocialIconKey = keyof typeof iconMap;
