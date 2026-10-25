@@ -1,3 +1,5 @@
+import { resumeConfig } from "@/config/resume";
+
 export const heroConfig = {
   name: "Nitish Kumar Bharti",
   coverImage: "/assets/nitish-header.jpeg",
@@ -34,5 +36,10 @@ export const socialLinks = [
     name: "Email",
     href: "mailto:your-email@example.com",
     icon: "mail",
+  },
+  {
+    name: "Resume",
+    href: resumeConfig.viewUrl,
+    icon: "resume",
   },
 ] as const;
