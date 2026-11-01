@@ -1,4 +1,4 @@
-const RESUME_FILE_ID = "1fwZhPSfyvwOz97HI0msTGR38uOC2eszv";
+const RESUME_FILE_ID = "1zMPvvTyEG4_ZUEXPCMRN-6gdn5D3RRGw";
 
 export const resumeConfig = {
   title: "Resume",
