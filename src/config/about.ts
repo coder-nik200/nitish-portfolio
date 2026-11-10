@@ -31,9 +31,35 @@ export const aboutConfig = {
   story: {
     title: "A little about my journey",
     paragraphs: [
-      "My journey in technology started during my **BCA at Khalsa College, Amritsar**. I'm now pursuing my MCA at LPU, where I'm continuing to learn, explore new areas of computer science, and work towards my career goals.",
-      "I've participated in several **hackathons**, where I got the opportunity to work under time constraints, collaborate with others, and turn ideas into working solutions. I was also a **runner-up at HackWarth 2.0 at GNDU University**. These experiences taught me that building something is as much about teamwork and learning as it is about writing code.",
+      "My journey in technology started during my **BCA at Khalsa College, Amritsar**. I'm now pursuing my **MCA at LPU**, where I'm continuing to learn, explore new areas of computer science, and work towards my career goals.",
+
       "Apart from technology, I enjoy participating in quiz competitions. I've won **several inter-college quiz competitions**, which have helped me develop my general knowledge, confidence, and ability to think quickly.",
+    ],
+  },
+
+  // Hackathon experiences
+  hackathons: {
+    title: "Hackathons & Experiences",
+    description:
+      "I enjoy stepping outside my comfort zone, collaborating with people, and turning ideas into working solutions.",
+
+    items: [
+      {
+        name: "HackWarth 2.0",
+        organizer: "GNDU University",
+        achievement: "Runner-up",
+        image: "/assets/hackathons/hackwarth-2.0.png",
+        description:
+          "Participated in HackWarth 2.0 at GNDU University and secured the runner-up position. The experience helped me improve my problem-solving abilities, collaborate with a team, and turn ideas into practical solutions.",
+      },
+      {
+        name: "DevStorm 2026",
+        organizer: "Lovely Professional University",
+        achievement: "Participant",
+        image: "/assets/hackathons/devstorm-2026.png",
+        description:
+          "Participated in DevStorm 2026, a 36-hour hackathon at LPU, where our team worked on CivicFix, a civic issue reporting platform. We developed a solution for reporting potholes and civic issues using image uploads, location mapping, and AI-powered severity assessment. It was a valuable experience in teamwork, rapid development, and building solutions under time constraints.",
+      },
     ],
   },
 
@@ -67,6 +93,7 @@ export const aboutConfig = {
     title: "Beyond the screen",
     paragraphs: [
       "Outside academics and coding, I enjoy **listening to music** and taking part in **activities that challenge me**. I like learning new things and meeting people with **different ideas and perspectives**.",
+
       "Right now, I'm focused on **making the most of my MCA**, improving my **technical skills**, and preparing for the next stage of my career. I don't have everything figured out yet, but I'm willing to **put in the work** and see how far I can go.",
     ],
   },
