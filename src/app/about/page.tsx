@@ -153,10 +153,22 @@ export default function AboutPage() {
 
             {/* Hackathon Images */}
             <div className="space-y-6">
-              {certificates.map((hackathon) => (
+              {certificates.map((hackathon, index) => (
                 <article key={hackathon.name} className="w-full space-y-2">
                   {/* Image */}
-                  <div className="relative aspect-[3/2] w-full overflow-hidden border-0 bg-transparent p-0">
+                  <div
+                    className="group relative aspect-[3/2] w-full cursor-zoom-in overflow-hidden"
+                    onClick={() => setActiveCertificate(index)}
+                    role="button"
+                    tabIndex={0}
+                    aria-label={`View ${hackathon.name} certificate fullscreen`}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        setActiveCertificate(index);
+                      }
+                    }}
+                  >
                     <PaperCrumple
                       src={hackathon.image}
                       alt={`${hackathon.name} certificate`}
